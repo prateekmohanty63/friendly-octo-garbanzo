@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prateek Mohanty - Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <header>
+      <nav id="navbar">
+        <a id="name" href="#welcome-section">Prateek Mohanty</a>
+        <ul>
+          <li>
+            <a>Resume</a>
+            <!-- href="RESUME LINK"-->
+          </li>
+          <li>
+            <a href="#skills-section">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact-section">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- WELCOME SECTION -->
+      <section id="welcome-section" class="centered-column">
+        <div id="section-header">
+          <div class="centered">
+            <!-- <img 
+              src="https://lh3.googleusercontent.com/4rPZ4rEogyR6fRYnJAEXF2mW72yakhv3-qU9JgQeTQHWvf9O8KkB8fJvqVS5KKO3XokBjXXEuPDJxwkj9zoHrH3alZ_6flnnjLp3o0mxZElsc-QX7M2YbX9gMJVVEz-r-Voyt8zjCw=w2400" 
+              alt="profile-picture" 
+              loading="lazy"
+              class="profile-pic"
+            /> -->
+          </div>
+          <h1>Hey! I'm Prateek Mohanty.</h1>
+          <p>I'm a second-year studying CS @ University of Washington.</p>
+        </div>
+      </section>
+      <!-- SKILLS SECTION -->
+      <section id="skills-section">
+        <div class="column-1 centered">
+          <div id="section-header">
+            <h2>Relevant Courses</h2>
+            <hr />
+            <br />
+          </div>
+          <h3>Completed:</h3>
+            <ul>
+              <li>CSE 311 - Foundations of Computing I</li>
+              <li>CSE 142 - Computer Programming I</li>
+              <li>CSE 143 - Computer Programming II</li>
+            </ul>
+          <br />
+          <h3>In Progress:</h3>
+            <ul>
+              <li>CSE 312 - Foundations of Computing II</li>
+              <li>CSE 331 - Software Design and Implementation</li>
+              <li>Algorithms, Part I [Princeton - Coursera]</li>
+            </ul>
+        </div>
+        <div class="column-2">
+          <div id="section-header">
+            <h2 class="centered">Skills</h2>
+            <hr />
+            <br />
+          </div>
+          <div class="skills-container">
+            <div class="centered-column">
+              <i class="iconify skill-icon" data-icon="logos:java"></i>
+              <span>Java</span>
+            </div>
+              <div class="centered-column">
+                <i class="iconify skill-icon" data-icon="vscode-icons:file-type-html"></i>
+                <span>HTML</span>
+              </div>
+              <div class="centered-column">
+                <i class="iconify skill-icon" data-icon="vscode-icons:file-type-css"></i>
+                <span>CSS</span>
+              </div>
+              <div class="centered-column">
+                <i class="iconify skill-icon" data-icon="file-icons:latex"></i>
+                <span>LaTeX</span>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- PROJECTS SECTION -->
+      <section id="projects">
+        <div id="section-header">
+          <h2 class="centered">My Projects</h2>
+          <hr />
+          <br />
+        </div>
+        <div class="project-grid">
+          <div class="project-tile centered">
+            <a href=""> <!-- LINK WEBSITE --> 
+              <img 
+                src="https://lh3.googleusercontent.com/NUQz_oq1s9nUEYJ7vT7yslGTzrVsLKWs8_wffJasr9j7e_LmuJDvM0K1wXyxCxcf8J_vjR9yqMXdTrdMaTUyOB-i9a-GVFspAgc3gSyuIXOvuuLc624p0GbZWnFestxwLXxLMejOCQ=w2400"
+                alt="personal-website-image"
+                loading="lazy"
+                class="project-image"
+              />
+              <div class="project-info">
+                <h3>Personal Portfolio Website</h3>
+                <h4>An online resume.</h4>
+              </div>
+              <p>Made with: HTML, CSS.
+            </a>
+          </div>
+          <div class="project-tile centered">
+          <a href="#welcome-section">
+              <img
+                src="https://lh3.googleusercontent.com/xHUCJ_u5PTXuuGnnmKdOkj-tLJ58Ef3Kft_V_Bx9jy29VBXDDHetIoO45blMKMvI_rmJFLZcNRszHfgt6GHR9sf-nOLTjQ89JxvwxfoaTKezV_gfJayHboQd9a_2rVyNzPDbnq9bxg=w2400"
+                alt="coming-soon"
+                loading="lazy"
+                class="project-image"
+              />
+              <div class="project-info">
+                <h3>Coming Soon</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT SECTION -->
+      <section id="contact-section" class="centered-column">
+        <div id="section-header" class="centered">
+          <h1>Connect with Me</h1>
+          <p>Here are some ways contact me:</p>
+        </div>
+        <div id="contact-links">
+          <a id="profile-link" href="https://github.com/kevincnguyen" target="_blank">
+            <i class="iconify contact-icon" data-icon="akar-icons:github-fill"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kevincuunguyen/" target="_blank">
+            <i class="iconify contact-icon" data-icon="akar-icons:linkedin-box-fill"></i>
+          </a>
+          <a href="mailto:kevincuunguyen@gmail.com" target="_blank">
+            <i class="iconify contact-icon" data-icon="ic:outline-email"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="centered">
+      <p>Created by Prateek Mohanty.</p>
+    </footer>
+  </body>
+</html>
